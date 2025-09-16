@@ -8,12 +8,14 @@ public class EnemyAttack : MonoBehaviour,IState
     private float curTime;
     private IState moveState;
     private IGetDamage player;
+    private Animator anim;
     public void Init(EnemyStat stat)
     {
         damage = stat.Damage;
         attackSpeed = stat.AttackSpeed;
         attackRange = stat.AttackRange;
         moveState = GetComponent<EnemyMove>();
+        anim = GetComponent<Animator>();
     }
 
     public IState CheckTransition()
@@ -26,7 +28,7 @@ public class EnemyAttack : MonoBehaviour,IState
 
     public void EnterState()
     {
-
+        anim.Play("Attack");
     }
 
     public void ExitState()
@@ -36,10 +38,10 @@ public class EnemyAttack : MonoBehaviour,IState
 
     public void OnUpdate()
     {
-        Attack();
+       
     }
 
-    private void Attack()
+    private void CheckCanAttack()
     {
         if (player == null)
         {
@@ -55,6 +57,11 @@ public class EnemyAttack : MonoBehaviour,IState
         }
         else
             curTime -= Time.deltaTime;
+    }
+
+    public void Attack()
+    {
+        CheckCanAttack();
     }
 
     private IGetDamage GetTarget()

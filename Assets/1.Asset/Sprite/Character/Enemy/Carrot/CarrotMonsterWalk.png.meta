@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: d01c15ef9cb80ee4f8f882b652ca0a92
+guid: 35268d1546db6c645966aa52250eeccf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3427114271967980436
-    second: Character_0
+      213: 5508243912214880140
+    second: CarrotMonsterWalk_0
   - first:
-      213: 8158605244509288230
-    second: Character_1
+      213: 6588620422470668660
+    second: CarrotMonsterWalk_1
   - first:
-      213: 6184959299203262911
-    second: Character_2
+      213: 7688925199618783933
+    second: CarrotMonsterWalk_2
   - first:
-      213: 2495864320845663737
-    second: Character_3
+      213: -3465883575908799679
+    second: CarrotMonsterWalk_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,93 +105,119 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Character_0
+      name: CarrotMonsterWalk_0
       rect:
         serializedVersion: 2
-        x: 142
-        y: 623
-        width: 210
-        height: 290
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 7
+        y: 63
+        width: 43
+        height: 53
+      alignment: 9
+      pivot: {x: 0.603864, y: 0.5168532}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49ba251d54e8f8f20800000000000000
-      internalID: 3427114271967980436
+      spriteID: c8f96cb77a6317c40800000000000000
+      internalID: 5508243912214880140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_1
+      name: CarrotMonsterWalk_1
       rect:
         serializedVersion: 2
-        x: 655
-        y: 623
-        width: 210
-        height: 290
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 71
+        y: 63
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: 0.6107884, y: 0.53428555}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6277d956e30393170800000000000000
-      internalID: 8158605244509288230
+      spriteID: 4719f31cd5b7f6b50800000000000000
+      internalID: 6588620422470668660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_2
+      name: CarrotMonsterWalk_2
       rect:
         serializedVersion: 2
-        x: 143
-        y: 111
-        width: 210
-        height: 290
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 7
+        y: 0
+        width: 43
+        height: 52
+      alignment: 9
+      pivot: {x: 0.60617197, y: 0.50763434}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb9624b96b365d550800000000000000
-      internalID: 6184959299203262911
+      spriteID: dbab3db3bbc84ba60800000000000000
+      internalID: 7688925199618783933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_3
+      name: CarrotMonsterWalk_3
       rect:
         serializedVersion: 2
-        x: 655
-        y: 111
-        width: 210
-        height: 290
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 71
+        y: 0
+        width: 43
+        height: 54
+      alignment: 9
+      pivot: {x: 0.6061721, y: 0.5275688}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9fdc39b406713a220800000000000000
-      internalID: 2495864320845663737
+      spriteID: 14b68113045b6efc0800000000000000
+      internalID: -3465883575908799679
       vertices: []
       indices: 
       edges: []
@@ -200,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 06e53ac53f3d6b049bbf4a678bc578d7
+    spriteID: 3a40aea6d71ffa74c9628270de08f8d1
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Character_0: 3427114271967980436
-      Character_1: 8158605244509288230
-      Character_2: 6184959299203262911
-      Character_3: 2495864320845663737
+      CarrotMonsterWalk_0: 5508243912214880140
+      CarrotMonsterWalk_1: 6588620422470668660
+      CarrotMonsterWalk_2: 7688925199618783933
+      CarrotMonsterWalk_3: -3465883575908799679
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

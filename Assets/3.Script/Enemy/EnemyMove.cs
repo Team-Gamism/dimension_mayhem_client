@@ -6,11 +6,13 @@ public class EnemyMove : MonoBehaviour, IState
     public float attackRange;
     private Rigidbody2D rigid;
     private IState attackState;
+    private Animator anim;
 
     public void Init()
     {
         rigid = GetComponent<Rigidbody2D>();
         attackState = GetComponent<EnemyAttack>();
+        anim = GetComponent<Animator>();
     }
 
     public IState CheckTransition()
@@ -26,7 +28,7 @@ public class EnemyMove : MonoBehaviour, IState
 
     public void EnterState()
     {
-        
+        anim.Play("Move");
     }
 
     public void ExitState()
